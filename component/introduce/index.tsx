@@ -26,6 +26,8 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
     DateTime.local().diff(latestUpdated).milliseconds / 1000 / 60 / 60 / 24,
   );
 
+  const dDay = latestUpdatedByNow == 0 ? 'D-Day' : `(D+${latestUpdatedByNow})`;
+
   return (
     <div className="mt-5">
       <Row>
@@ -39,9 +41,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
           <p className="text-right">
             <small>Latest Updated</small>{' '}
             <Badge color="secondary">
-              {`${latestUpdated.toFormat(
-                Util.LUXON_DATE_FORMAT.YYYY_DOT_LL_DOT_DD,
-              )} (D+${latestUpdatedByNow})`}
+              {`${latestUpdated.toFormat(Util.LUXON_DATE_FORMAT.YYYY_DOT_LL_DOT_DD)} ${dDay}`}
             </Badge>
           </p>
           <p className="text-right" style={Style.sign}>
