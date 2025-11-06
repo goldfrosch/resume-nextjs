@@ -26,7 +26,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
     DateTime.local().diff(latestUpdated).milliseconds / 1000 / 60 / 60 / 24,
   );
 
-  const dDay = latestUpdatedByNow == 0 ? 'D-Day' : `(D+${latestUpdatedByNow})`;
+  const dDay = latestUpdatedByNow === 0 ? 'D-Day' : `(D+${latestUpdatedByNow})`;
 
   return (
     <div className="mt-5">

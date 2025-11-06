@@ -34,8 +34,8 @@ const project: IProject.Payload = {
     },
     {
       title: '캐치테이블 앱 메모리 부족 장애 해결',
-      startedAt: '2017-05',
-      endedAt: '2019-12',
+      startedAt: '2023-01',
+      endedAt: '2023-01',
       where: '캐치테이블 국내 B2C 앱',
       descriptions: [
         {

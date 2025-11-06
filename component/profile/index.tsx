@@ -62,7 +62,7 @@ function createProfileContactMap(contacts: Payload['contact']) {
 }
 
 function createNoticeArea(notice: Payload['notice']) {
-  if (notice.title == '') {
+  if (notice.title === '') {
     return null;
   }
 
