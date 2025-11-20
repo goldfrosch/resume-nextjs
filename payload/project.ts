@@ -178,7 +178,8 @@ const project: IProject.Payload = {
         },
         {
           content: '자료: ',
-          postHref: 'https://drive.google.com/file/d/1ZcD-ytHBd3u-asGyE34ogfgZPjlmo1EJ/view',
+          postHref:
+            'https://drive.google.com/file/d/1gUoTWLiHUr0LCWwr0_-rUf5E312-aZvy/view?usp=sharing',
         },
       ],
     },
