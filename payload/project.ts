@@ -64,6 +64,11 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content: '배포 프로세스 중 프론트, 백엔드 구조 분리 및 배포 완전 자동화 수행',
+          descriptions: [
+            {
+              content: '기존의 JSP 의존성 제거',
+            },
+          ],
         },
         {
           content: 'aws cloudfront 배포 방식 변경으로 배포 시간 대폭 감소',
