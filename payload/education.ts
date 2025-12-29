@@ -16,12 +16,6 @@ const education: IEducation.Payload = {
       startedAt: '2017-03',
       endedAt: '2019-02',
     },
-    {
-      title: '안산 경안고등학교',
-      subTitle: '자연계 졸업',
-      startedAt: '2014-03',
-      endedAt: '2017-02',
-    },
   ],
 };
 
