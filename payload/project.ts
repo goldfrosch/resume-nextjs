@@ -27,28 +27,26 @@ const project: IProject.Payload = {
     },
     {
       title: '언리얼 - AI 협업 컨텐츠 개발',
-      startedAt: '2025-04',
+      startedAt: '2024-12',
       endedAt: '2025-06',
       where: '원티드 포텐업',
       descriptions: [
         {
-          content: '농사 시뮬레이션 게임 개발에 필요한 UI, 아이템, 퀘스트 등 코어 시스템 개발',
-        },
-        {
-          content: '클라이언트 리드를 담당해 AI 팀과의 소통 및 일정 조율을 같이 담당',
+          content: 'AI 개발자와 협업해서 만드는 컨텐츠 개발로, 다른 언어로 클라이언트를 개발 진행',
         },
         {
           content:
-            'LLM 기반의 개인 활동 일기 컨텐츠 개발을 위한 행동 로그 데이터 모델 설계 및 적용',
+            '프레임워크에 의존하지 않고 핵심 시스템을 직접 구현하며, 저수준 원리 이해 중심의 개발 역량을 강화',
         },
         {
-          content:
-            'AI를 활용한 컨텐츠 개발로 AI에 대한 이해도가 상승하고, 내부 평가에서 우수상(2등)을 수상',
+          content: 'AI를 활용한 컨텐츠 개발로 AI에 대한 이해도가 상승',
+        },
+        {
+          content: '이후 최종 프로젝트의 내부 평가에서 우수상(2등)을 수상',
         },
         {
           content: '자료: ',
-          postHref:
-            'https://drive.google.com/file/d/1gUoTWLiHUr0LCWwr0_-rUf5E312-aZvy/view?usp=sharing',
+          postHref: 'https://drive.google.com/file/d/1X5VLkU0xSXiQIwEkFwoDU3pOqlKB-_tN/view',
         },
       ],
     },
